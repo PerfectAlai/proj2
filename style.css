@@ -1,0 +1,31 @@
+main{
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.container{
+  text-align: center;
+  font-size: 50px;
+}
+
+.btn{
+  background-color: blue;
+  color: wheat;
+  font-size: 1rem;
+  border-radius: 1rem;
+  border: white;
+  font-size: 1.5rem;
+  box-shadow: 5px;
+  letter-spacing: var(--spacing);
+}
+
+button:hover{
+  color: rgb(189, 41, 108);
+  transition: all 0.3s linear;
+}
+
+#value{
+  font-size: 5rem;
+  font-weight: bold;
+}
